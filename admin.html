@@ -1,8 +1,0 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PROLOGS Admin</title><link rel="stylesheet" href="/styles.css"></head><body>
-<div id="login" class="admin-wrap"><div class="panel"><div class="brand"><span>MEZEN</span> LOGS</div><h1>Admin login</h1><p>Use your administrator email and password.</p><input id="email" type="email" placeholder="Admin email"><input id="password" type="password" placeholder="Password"><button class="button full" onclick="login()">Log in</button><p id="msg" class="error"></p></div></div>
-<div id="dash" class="hidden"><header><div class="brand"><span>MEZEN</span> LOGS</div><nav><a href="/">View site</a><button class="logout" onclick="logout()">Log out</button></nav></header>
-<main class="section"><div class="section-head"><div><p class="eyebrow">CONTROL CENTER</p><h1>Admin dashboard</h1></div></div><div id="stats" class="stats"></div>
-<div class="admin-grid"><section class="panel"><h2>Add service</h2><input id="name" placeholder="Service name"><input id="category" placeholder="Category"><textarea id="description" placeholder="Description"></textarea><input id="price" placeholder="Price or 'Contact us'"><button class="button full" onclick="addProduct()">Add service</button></section>
-<section class="panel"><h2>Services</h2><div id="productAdmin"></div></section></div>
-<section class="panel orders"><h2>Orders</h2><div id="orders"></div></section></main></div>
-<script src="/admin.js"></script></body></html>
