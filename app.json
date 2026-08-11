@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Prologs",
+    "slug": "prologs",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.prologs.store"
+    },
+    "ios": {
+      "bundleIdentifier": "com.prologs.store"
+    }
+  }
+}
